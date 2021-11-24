@@ -1,0 +1,513 @@
+@font-face {
+    font-family: "RenaultGlobal";
+    src:  url("fonts/RenaultGlobal.woff2") format("woff2");
+    font-style: normal;
+}
+@font-face {
+    font-family: "RenaultBold";
+    src:  url("fonts/RenaultLifeCy-Bold.woff2") format("woff2");
+    font-style: normal;
+}
+@font-face {
+    font-family: "RenaultLight";
+    src:  url("fonts/RenaultLifeCy-Light.woff2") format("woff2");
+    font-style: normal;
+}
+@font-face {
+    font-family: "RenaultRegular";
+    src:  url("fonts/RenaultLifeCy-Regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'RenaultGlobal','RenaultBold','RenaultLight','RenaultRegular', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.body a {
+    font-family: 'RenaultGlobal', 'RenaultBold', 'RenaultLight', 'RenaultRegular', sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding: 0;
+}
+
+
+
+/************    HEADER    ***********/
+
+
+.header{
+    padding: 10px 0;
+}
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.col{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+
+}
+
+
+.header__text a{
+    font-family: 'RenaultGlobal', 'RenaultBold', 'RenaultLight', 'RenaultRegular', sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__text a:hover{
+    text-decoration: underline;
+}
+
+.text__bold{
+    font-family: 'RenaultBold', sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.text{
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: -5px;
+}
+
+ .block__logo__re,.block__logo__ka{
+
+     text-align: center;
+ }
+
+/***************Баннер***********/
+
+.banner__container{
+    box-sizing: border-box;
+    text-align: center;
+    height: 680px;
+    width: 100%;
+    background-color: #CECECE;
+
+}
+
+.banner{
+    position: absolute;
+    z-index: 1;
+}
+
+.info_position{
+    box-sizing: border-box;
+    width: 448px;
+    height: 345px;
+    background-color: #ffffff;
+    display:flex;
+   align-items: center;
+    text-align: center;
+
+    position: relative;
+    top: 114px;
+
+    z-index: 100;
+}
+
+.info {
+    box-sizing: border-box;
+    width: 334px;
+    height: 80%;
+    margin: 55px auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    text-align: left;
+
+
+}
+.info__vigoda{
+    width: 334px;
+    font-family: 'RenaultRegular', sans-serif;
+    line-height: 1.2;
+    font-size: 36px;
+    margin: 20px auto 12px;
+
+}
+
+.info__uslovia{
+    width: 334px;
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.btn{
+    display: inline-block; /***чтобы задавать педдинги***/
+    vertical-align: top; /***выравнивание по верхней границе***/
+    font-family: 'RenaultBold', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: ;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+
+}
+.btn--yellow{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FFCC33;
+    padding: 12px 40px;
+    text-align: center;
+
+}
+
+/***************************************/
+
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 80px auto 36px;
+}
+
+.title__block{
+    width: 600px;
+    font-family: 'RenaultRegular', sans-serif;
+    font-size: 40px;
+    margin: 0 auto 5px;
+}
+.blocks {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image__advant{
+    box-sizing: border-box;
+    width: 110%;
+    height: 192px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+
+.text__2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 20px auto;
+    text-align: left;
+}
+
+.block__text {
+    width: 280px;
+    line-height: 1;
+
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text__1{
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    width: 280px;
+    text-align: left;
+    margin: 10px auto;
+}
+
+/*********************Модельный ряд******************/
+
+.sentence{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 100%;
+
+    /*padding: 0;*/
+}
+
+.col__sentence{
+    width: 32%;
+    max-height: 600px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+
+}
+
+.sentence__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 350px;
+    margin: 30px auto 10px;
+
+}
+
+.sentence__text {
+    text-align: left;
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 28px;
+    margin: 5px auto 0 0;
+}
+.akcent{
+    font-family:'RenaultRegular', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.sentence__text__money{
+    text-align: left;
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 18px;
+    margin: 5px auto 0 0;
+}
+
+.sentence__text__money p{
+    margin: 0;
+}
+
+.benefit{
+    text-align: left;
+    font-weight: 400;
+    font-size: 26px;
+
+    text-transform: uppercase;
+    margin: 5px auto 0 0;
+}
+
+.sentence__image{
+    width: 100%;
+    height: 240px;
+    background-color: #C4C4C4;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.btn--black{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+    padding: 12px 40px;
+    text-align: center;
+    margin: 20px 20px 30px;
+
+}
+
+
+/**************** Form ****************/
+
+.flow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+
+}
+.forms{
+    width: 30%;
+
+}
+select{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    padding: 10px 0 15px;
+    outline: 0;
+    border: 1px solid #CCCCCC;
+    background: #ffffff;
+    margin: 10px auto 30px;
+}
+
+.border {
+    border: 1px solid #CCCCCC;
+
+}
+
+.form__text{
+    margin-bottom: 10px;
+}
+
+.model{
+    width: 70%;
+    margin: 20px 0;
+    font-family: 'RenaultBold', sans-serif;
+    font-size: 22px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.border__model {
+    margin: 0;
+}
+
+ .intro__model{
+     box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .intro__money{
+     width: 23%;
+     display: flex;
+     text-align: left;
+ }
+ .button {
+     display: flex;
+     align-items: center;
+ }
+.title__btn{
+    margin-top: -7px;
+}
+
+/********************* Map ******************/
+
+.adress{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.adress__blocks{
+   width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.border__yellow{
+    width: 100%;
+    border: 2px solid #FFCC33;
+    margin: 5px auto;
+}
+.border__model{
+    border: 1px solid #CCCCCC;
+}
+
+.map{
+    display: flex;
+    justify-content: space-around;
+    background-color: #CECECE;
+}
+
+.ad__block{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+iframe{
+    width: 70%;
+    max-width: 1300px;
+    height: 600px;
+}
+
+.ad__blocks{
+    font-family:'RenaultRegular', sans-serif;
+    font-size: 26px;
+}
+
+/**************** Footer ****************/
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+
+    background-color: #333333;
+    color: #ffffff;
+    height: 120px;
+
+}
+.col__footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /*margin: 5px 0;*/
+
+}
+
+.footer__text{
+
+    font-family:'RenaultRegular','RenaultBold', sans-serif;
+    color: #ffffff;
+}
+.footer__text__bold{
+    font-family: 'RenaultBold', sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+
+.footer__text a{
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__text a:hover{
+    text-decoration: underline;
+}
+.f__text{
+    font-family: 'RenaultLight', sans-serif;
+    font-size: 16px;
+    padding-bottom: -5px;
+}
